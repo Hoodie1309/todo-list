@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bca37c1662.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="todo-box">
+        <h1><i class="fa-solid fa-clipboard-check"></i> Todo-List</h1>
+        <div class="input-place">
+            <input class="input" type="text" placeholder="Enter a Todo...">
+            <button class="add-btn">Add</button>
+        </div>
+        <div class="error-text">
+            <p class="error">Uzupełnij pole!</p>
+        </div>
+        <ul>
+            <!-- <li id="test">
+                <p>Gotować</p>
+                <div class="edit-btns">
+                    <button class="complete"><i class="fa-regular fa-square-check"></i></button>
+                    <button class="edit"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button class="cancel"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </li> -->
+        </ul>
+        <div class="color red"></div>
+        <div class="color green"></div>
+        <div class="color orange"></div>
+        <button class="clear-all">Clear all</button>
+
+        <div class="popup">
+            <div class="popup-box">
+                <input class="popup-input" type="text" placeholder="Edit Todo...">
+            </div>
+            <p class="error-popup">Musisz podać jakąś treść!</p>
+            <div class="popup-btns">
+                <button class="save-btn popup-btn">Save</button>
+                <button class="close-btn popup-btn">Close</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
